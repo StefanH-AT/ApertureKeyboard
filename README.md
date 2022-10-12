@@ -11,7 +11,7 @@ Get a second hand Cherry G80-3000 or any G80-3xxx. Make sure to a non-yellowed o
 Mine cost me 40€
 
 ## Switches
-You can use any MX switches. My G80-3000 came with Cherry MX Blues which are very clacks, so I got Boba U4 Silent Tactile Switches, but feel free to use whatever you like.
+You can use any MX switches. My G80-3000 came with Cherry MX Blues which are very clacky, so I got Boba U4 Silent Tactile Switches, but feel free to use whatever you like.
 
 I got my switches for 94€, including shipping 
 
