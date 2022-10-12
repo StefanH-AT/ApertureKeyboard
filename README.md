@@ -36,6 +36,8 @@ My standard G80-3000 PCB had a few problems, which is why I printed my own.
 
 **The PCB design will be uploaded shortly after I made some adjustments to the design**
 
+The PCB has a reset switch placed right where the case will press against it. Use a file to make a little hole. Don't worry, you can't see it even if you're looking for it
+
 ### PCB Parts and assembly
 Not going to list all parts here as you can look them up on the design. The PCB uses an Atmega AT32u4 microcontroller, which is by far the most expensive component. It cost me around 40€.
 JLCPCB requires you to order at least 2 fully assembled PCB, which means you will spend quite a buck. I paid 213€, including shipping, for 2 fully assembled boards and 3 empty PCBs without any components and only copper. Yes I now have 4 boards just lying around.
