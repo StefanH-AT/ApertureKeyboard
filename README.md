@@ -1,5 +1,7 @@
-# ApertureKeyboard
+# Aperture Keyboard
 Instructions and resources for how to build the Aperture Keyboard
+
+![An image of the keyboard](20221010_220754.jpg)
 
 Version 0.1
 
