@@ -3,6 +3,8 @@ Instructions and resources for how to build the Aperture Keyboard
 
 ![An image of the keyboard](20221010_220754.jpg)
 
+![An image of the keyboard's PCB](20220920_224611.jpg)
+
 Version 0.1
 
 ## Case
