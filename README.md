@@ -8,7 +8,7 @@ Instructions and resources for how to build the Aperture Keyboard
 Version 0.1
 
 ## Case
-Get a second hand Cherry G80-3000 or any G80-3xxx. Make sure to a non-yellowed one.
+Get a second hand Cherry G80-3000 or any G80-3xxx. Make sure to get a non-yellowed one.
 
 Mine cost me 40€
 
@@ -63,3 +63,17 @@ Also I unbound the Menu key to act as a function key. If you like that change, c
 I am not done with this keyboard as I still need to replace the cherry logo with an Aperture logo and want to add a proper USB-C plug. Currently I have a cable hanging straight out the keyboard. It works, but mobility is more limited. 
 
 Once I am done with these changes, I will update this readme
+
+## License
+
+### Instructions
+You may follow the instructions to replicate the keyboard for yourself. If you modify and republish these instructions, please note that the design was originally inspired by these instructions.
+
+### PCB
+The PCB's original design, created by farmakon and published [here on geekhack.org](https://geekhack.org/index.php?topic=92962.0) is licensed under Creative Commons. 
+The design has been modified under the same license by [Raldone01](https://github.com/raldone01)
+
+### Images
+The Aperture Science logos are owned by Valve Software. Please rech out to them for any questions about commercializing their design
+
+The photos are mine, don't use them
