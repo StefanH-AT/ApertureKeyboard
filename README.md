@@ -1,21 +1,32 @@
 # Aperture Keyboard
 Instructions and resources for how to build the Aperture Keyboard
 
-![An image of the keyboard](20221010_220754.jpg)
+![An image of the keyboard](pictures/20221109_221925.jpg)
+![An image of the keyboard without the top cover, exposing the PCB and janky wiring](pictures/20221109_222052.jpg)
 
-![An image of the keyboard's PCB](20220920_224611.jpg)
-
-Version 0.1
+## Table of Contents
+- [Case](#case)
+- [Switches](#switches)
+- [Keycaps](#keycaps)
+- [Stabs](#stabs)
+- [PCB](#pcb)
+- [Firmware](#firmware)
+- [Stickers](#stickers)
+- [USB-C Port](#usb-c-port)
 
 ## Case
-Get a second hand Cherry G80-3000 or any G80-3xxx. Make sure to get a non-yellowed one.
+Get a second hand Cherry G80-3000 or any G80-3xxx. Make sure to get a decently non-yellowed one.
 
-Mine cost me 40€
+> **Watch out!!** Most Cherry G80-3000 come with a logo printed on the top left (where the aperture logo is supposed to be). I couldn't find a way to remove it without damaging the case. Some models don't have it, but most do. If you want to avoid this, try to find one without the logo (I had to get a second one because of this).
+
+My first case (With logo) cost 40€, my second one (Without logo) cost 60€. I think it's worth it to get a non-yellowed one, but it's up to you.
 
 ## Switches
 You can use any MX switches. My G80-3000 came with Cherry MX Blues which are very clacky, so I got Boba U4 Silent Tactile Switches, but feel free to use whatever you like.
 
-I got my switches for 94€, including shipping 
+This keyboard is definitely not hotswap lol. This project was the first time I properly soldiered something and it wasn't too hard.
+
+I got my switches for 94€, including shipping.
 
 ## Keycaps
 I ordered mine on [wasdkeyboards.com](https://www.wasdkeyboards.com/). My keyboard uses the ISO layout, but you can also choose ANSI. Color the keys accordingly. The gray caps on my keyboard use the darkest gray color, not black. 
@@ -59,10 +70,26 @@ My firmware uses QMK's RGB lighting api to control the 3 status leds. If you eve
 
 Also I unbound the Menu key to act as a function key. If you like that change, consider printing a function key cap. If you rather have a menu key you can just modify the firmware and remove the macro.
 
-## Future tasks
-I am not done with this keyboard as I still need to replace the cherry logo with an Aperture logo and want to add a proper USB-C plug. Currently I have a cable hanging straight out the keyboard. It works, but mobility is more limited. 
+## Stickers
+I got my logo sticker from [this etsy store](https://www.etsy.com/listing/1068475395/aperture-laboratories-vinyl-decal). It cost me 8€, including shipping. 
 
-Once I am done with these changes, I will update this readme
+> **Watch out!!** This store's logos are 3.8cm (1.5 inches) tall, which is way too big for the case! I made a special request to scale the logo to be 2.5cm (1 inch) tall. The seller was super cooperative and made the logo for me. If you want to get a logo from this store, make sure to specify the size you want. In hindsight even 2.5cm is a bit big, but I'm happy with it.
+
+Applying the vinyl sticker was very easy. Rub the surface with some alcohol and then apply the sticker. The sticker is very thin and doesn't leave any residue.
+
+![Unapplied logo sticker with centimeter stick](pictures/20221112_172636.jpg)
+![Unapplied logo sticker with centimeter stick but this time to show how long it is](pictures/20221112_172658.jpg)
+
+## USB-C Port
+The Cherry G80-3000 comes with a long PS2 cable that cannot be removed. I wanted to add a USB-C port to the case. The PCB has a USB-C port, but I wanted to have a port at the exterior of the case as well.
+
+Here's the picture again of what I ended up doing.
+![An image of the keyboard without the top cover, exposing the PCB and janky wiring](pictures/20221109_222052.jpg)
+
+It would probably be cheaper to just buy a USB-C port and solder it to the PCB, but I wanted to have a port on the exterior of the case as well. I also wanted to have a port that can be removed from the case, so I can use the keyboard without the case.
+
+The USC-C port I used is a [CableCreation USB-C extendor cable](https://www.amazon.de/Verl%C3%A4ngerung-CabelCreation-SuperSpeed-Extender-Stecker/dp/B01FM4ZQLQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=7JYLWJ8P2CH1&keywords=cablecreation+usb+c+extender&qid=1668271018&sprefix=cablecreation+usb+c+extender%2Caps%2C95&sr=8-3). I bought it because I liked the bug stirty metal housing. It cost me 8e, including shipping. It also conveniently fits PERFECTLY into the little cable nook on the top right of the case. I had to use a file to make the hole a bit bigger, but it fits perfectly now without requiring any glue or tape to hold it in place. One downside with this cable is that it is very thick and hard to bend. A thinner cable would be better, but so far I've not had any connection problems or the like. If you wish to rebuild this keyboard, this is definitely something to consider.
+![A Picture of the usb c plug](pictures/20221109_222006.jpg)
 
 ## License
 
